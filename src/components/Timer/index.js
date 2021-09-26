@@ -1,7 +1,7 @@
 import React from "react"
 import { TimeContainer, TimerButton } from "./TimerElements"
 
-const Timer = () => {
+const Timer = ({ rtoggle, ltoggle }) => {
   const [time, setTime] = React.useState(0)
   const [timerOn, setTimeOn] = React.useState(false)
 
