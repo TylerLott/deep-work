@@ -1,0 +1,33 @@
+.task-tab {
+  background-color: #565656;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.task-tab.active {
+  left: 0;
+  transition: 400ms;
+}
+
+.note-tab {
+  background-color: #060b26;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: 850ms;
+}
+
+.note-tab.active {
+  right: 0;
+  transition: 400ms;
+}

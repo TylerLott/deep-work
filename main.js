@@ -8,9 +8,13 @@ let tray, window
 function createWindow() {
   // Create the browser window.
   window = new BrowserWindow({
-    width: 800,
-    height: 600,
+    title: "Coffee",
+    width: 600,
+    height: 800,
+    minWidth: 350,
+    minHeight: 500,
     show: false,
+    icon: "assets/coffee.png",
     autoHideMenuBar: true,
     // frame: false,
     transparent: false,
